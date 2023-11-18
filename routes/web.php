@@ -1,5 +1,6 @@
 <?php
 
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,12 +21,17 @@ Route::get('/', function () {
 Route::view('kamar', 'kamar')->name('kamar');
 Route::view('fasilitas', 'fasilitas')->name('fasilitas');
 
-Route::view(config('admin.path') . '/login', 'auth.login')->name('admin.login');
-
 route::group([
     'prefix' => config('admin.path'),
-    'middleware' => ['auth:admin'],
+
 ], function () {
-    Route::view('/', 'dashboard')->name('dashboard');
-    Route::view('admin', 'admin.index')->name('admin.index');
+    Route::get('login', 'LoginAdminController@formLogin')->name('admin.login');
+    Route::post('login', 'LoginAdminController@login');
+
+    route::group(['middleware' => 'auth:admin'], function () {
+        Route::post('logout', 'LoginAdminController@logout')->name('admin.logout');
+
+        Route::view('/', 'dashboard')->name('dashboard');
+        Route::view('admin', 'admin.index')->name('admin.index');
+    });
 });
