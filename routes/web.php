@@ -15,6 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+})->name('home');
+
+Route::view('kamar', 'kamar')->name('kamar');
+Route::view('fasilitas', 'fasilitas')->name('fasilitas');
+
+Route::view(config('admin.path') . '/login', 'auth.login')->name('admin.login');
+
+route::group([
+    'prefix' => config('admin.path'),
+    'middleware' => ['auth:admin'],
+], function () {
+    Route::view('/', 'dashboard')->name('dashboard');
+    Route::view('admin', 'admin.index')->name('admin.index');
 });
-Route::view('admin', 'dashboard')->name('dashboard');
-Route::view('admin/admin', 'admin.index')->name('admin.index');
