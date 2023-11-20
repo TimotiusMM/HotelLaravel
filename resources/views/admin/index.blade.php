@@ -4,6 +4,8 @@
     <h1 class="m-0"><i class="fas fa-users"></i> User Admin</h1>
 @endsection
 @section('content')
+    <x-status />
+
     <div class="card">
         <div class="card-header">
             <x-btn-create :link="route('admin.create')" />
@@ -18,6 +20,7 @@
                             <th>Name</th>
                             <th>Username</th>
                             <th>Role</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -28,6 +31,9 @@
                                 <td>{{ $row->nama }}</td>
                                 <td>{{ $row->username }}</td>
                                 <td>{{ $row->role }}</td>
+                                <td>
+                                    <x-btn-edit :link="route('admin.edit', ['admin' => $row->id])" />
+                                </td>
                             </tr>
                         @endforeach
                     </tbody>
