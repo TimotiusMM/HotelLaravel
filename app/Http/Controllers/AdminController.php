@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Admin;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class AdminController extends Controller
 {
@@ -101,5 +103,43 @@ class AdminController extends Controller
     {
         $admin->delete();
         return redirect()->route('admin.index')->with('status', 'destroy');
+    }
+
+    public function akun()
+    {
+        $admin = Auth::user();
+        return view('admin.akun', ['row' => $admin]);
+    }
+
+    public function updateAkun(Request $request)
+    {
+        $admin = Auth::user();
+
+        $request->validate([
+            'nama_lengkap' => 'required',
+            'username' => "required|alpha_dash|unique:admins,username,{$admin->id}",
+            'password' => 'nullable|min:4|confirmed'
+        ]);
+
+        // Menggunakan find untuk mendapatkan instans dari model Admin
+        $admin = Admin::find($admin->id);
+
+        if ($request->password) {
+            $arr = [
+                'nama' => $request->nama_lengkap,
+                'username' => $request->username,
+                'password' => bcrypt($request->password),
+            ];
+        } else {
+            $arr = [
+                'nama' => $request->nama_lengkap,
+                'username' => $request->username,
+            ];
+        }
+
+        // Melakukan update pada instans model Admin yang telah ditemukan
+        $admin->update($arr);
+
+        return back()->with('status', 'update');
     }
 }
