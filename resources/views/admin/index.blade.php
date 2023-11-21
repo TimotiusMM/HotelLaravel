@@ -33,6 +33,8 @@
                                 <td>{{ $row->role }}</td>
                                 <td>
                                     <x-btn-edit :link="route('admin.edit', ['admin' => $row->id])" />
+                                    <x-btn-delete :link="route('admin.destroy', ['admin' => $row->id])" />
+
                                 </td>
                             </tr>
                         @endforeach
@@ -42,4 +44,7 @@
                     {{ $data->appends(['search' => request()->search])->links('page') }}
                 </div>
         </div>
+    @endsection
+    @section('modal')
+        <x-modal-delete />
     @endsection

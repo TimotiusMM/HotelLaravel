@@ -97,8 +97,9 @@ class AdminController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Admin $admin)
     {
-        //
+        $admin->delete();
+        return redirect()->route('admin.index')->with('status', 'destroy');
     }
 }
