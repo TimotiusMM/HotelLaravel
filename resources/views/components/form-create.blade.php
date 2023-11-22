@@ -1,6 +1,7 @@
- @props(['action'])
+ @props(['action', 'upload' => false])
 
- <form action="{{ $action }}" method="post" class="card card-primary">
+ <form action="{{ $action }}" method="post" class="card card-primary"
+     <?= $upload ? 'enctype="multipart/form-data"' : '' ?>>
      <div class="card-header">
          <i class="fas fa-plus-circle"></i> Tambah</a>
      </div>

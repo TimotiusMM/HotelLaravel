@@ -36,7 +36,8 @@ route::group([
         Route::put('/akun', 'AdminController@updateAkun');
 
         Route::group(['middleware' => ['can:role,"admin"']], function () {
-            Route::resource('admin', 'adminController');
+            Route::resource('admin', 'AdminController');
+            Route::resource('kamar', 'KamarController');
         });
     });
 });
