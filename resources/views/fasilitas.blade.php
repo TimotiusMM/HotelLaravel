@@ -6,78 +6,61 @@
         <hr>
         <div class="row kamar mb-3">
             <div class="col-md-4">
-                <img src="images/sarapan.jpg" class="img-fluid rounded img-thumbnail" />
+                <img src="images/nicola-pavan-BbFJfk49Pgg-unsplash.jpg" class="img-fluid rounded img-thumbnail" />
             </div>
             <div class="col-md">
-                <h2><a href="#"> Standar Room </a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin leo dui, sit amet finibus
-                    ipsum bibendum sed.
-                    Nunc lacinia congue scelerisque. Donec ac tincidunt turpis, nec eleifend nisl. Morbi ligula sem, ornare
-                    in consectetur vel, molestie at libero. Nullam aliquet lacinia justo vitae tincidunt. Proin non
-                    consectetur turpis. Suspendisse nisl ligula, tristique quis vestibulum quis, ultrices eu ligula.
-                    Etiam tristique ligula lacinia nunc vehicula faucibus.
+                <h2><a href="#"> BallRoom</a></h2>
+                <p>Ballroom di Hotel Hotellin adalah ruang serbaguna yang eksklusif dirancang untuk menyelenggarakan
+                    acara-acara istimewa seperti pernikahan, konferensi, atau pesta. Dengan dekorasi yang mewah dan
+                    fasilitas audio-visual yang canggih, ballroom ini menciptakan suasana yang elegan dan nyaman untuk
+                    memastikan kesuksesan setiap acara.
                 </p>
-                <p>
-                    Rp. 300. 000 / malam
-                </p>
+
             </div>
         </div>
         <hr>
         <div class="row kamar mb-3">
             <div class="col-md-4">
-                <img src="images/kolam_renang.jpg" class="img-fluid rounded img-thumbnail" />
+                <img src="images/sicong-li-btr4w-vpsVo-unsplash.jpg" class="img-fluid rounded img-thumbnail" />
             </div>
             <div class="col-md">
-                <h2><a href="#"> Suite Room </a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin leo dui, sit amet finibus
-                    ipsum bibendum sed.
-                    Nunc lacinia congue scelerisque. Donec ac tincidunt turpis, nec eleifend nisl. Morbi ligula sem, ornare
-                    in consectetur vel, molestie at libero. Nullam aliquet lacinia justo vitae tincidunt. Proin non
-                    consectetur turpis. Suspendisse nisl ligula, tristique quis vestibulum quis, ultrices eu ligula.
-                    Etiam tristique ligula lacinia nunc vehicula faucibus.
+                <h2><a href="#"> Lapangan Tennis Outdoor </a></h2>
+                <p> Lapangan tennis outdoor di Hotel Hotellin adalah fasilitas olahraga yang memikat, dirancang khusus untuk
+                    penggemar tenis. Dengan permukaan lapangan yang berkualitas dan lingkungan yang asri, lapangan ini
+                    menawarkan pengalaman bermain tenis yang memuaskan untuk tamu hotel dan anggota klub olahraga.
                 </p>
-                <p>
-                    Rp. 400. 000 / malam
-                </p>
+
             </div>
         </div>
         <hr>
         <div class="row kamar mb-3">
             <div class="col-md-4">
-                <img src="images/resepsionis.jpg" class="img-fluid rounded img-thumbnail" />
+                <img src="images/john-matychuk-yvfp5YHWGsc-unsplash.jpg" class="img-fluid rounded img-thumbnail" />
             </div>
             <div class="col-md">
-                <h2><a href="#"> Suite Room </a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin leo dui, sit amet finibus
-                    ipsum bibendum sed.
-                    Nunc lacinia congue scelerisque. Donec ac tincidunt turpis, nec eleifend nisl. Morbi ligula sem, ornare
-                    in consectetur vel, molestie at libero. Nullam aliquet lacinia justo vitae tincidunt. Proin non
-                    consectetur turpis. Suspendisse nisl ligula, tristique quis vestibulum quis, ultrices eu ligula.
-                    Etiam tristique ligula lacinia nunc vehicula faucibus.
+                <h2><a href="#"> Tempat Parkir </a></h2>
+                <p> Tempat parkir di Hotel Hotellin adalah fasilitas yang memudahkan tamu dan pengunjung untuk parkir
+                    kendaraan mereka dengan aman dan nyaman. Disediakan dengan sistem keamanan modern, tempat parkir ini
+                    menjadi solusi praktis bagi mereka yang membawa kendaraan pribadi saat menginap atau berkunjung ke Hotel
+                    Hotellin.
                 </p>
-                <p>
-                    Rp. 400. 000 / malam
-                </p>
+
             </div>
         </div>
 
         <hr>
         <div class="row kamar mb-3">
             <div class="col-md-4">
-                <img src="images/restoran.jpg"class="img-fluid rounded img-thumbnail" />
+                <img src="images/jason-leung-poI7DelFiVA-unsplash.jpg"class="img-fluid rounded img-thumbnail" />
             </div>
             <div class="col-md">
-                <h2><a href="#"> Deluxe Room </a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin leo dui, sit amet finibus
-                    ipsum bibendum sed.
-                    Nunc lacinia congue scelerisque. Donec ac tincidunt turpis, nec eleifend nisl. Morbi ligula sem, ornare
-                    in consectetur vel, molestie at libero. Nullam aliquet lacinia justo vitae tincidunt. Proin non
-                    consectetur turpis. Suspendisse nisl ligula, tristique quis vestibulum quis, ultrices eu ligula.
-                    Etiam tristique ligula lacinia nunc vehicula faucibus.
+                <h2><a href="#"> Restaurant </a></h2>
+                <p>Restaurant di Hotel Hotellin adalah destinasi kuliner yang menghadirkan pengalaman bersantap istimewa.
+                    Dengan menu yang beragam dan suasana yang nyaman, restoran ini memanjakan tamu dengan hidangan lezat
+                    dari berbagai masakan. Menjadi bagian integral dari layanan akomodasi, restaurant ini memperkaya
+                    pengalaman menginap di Hotel Hotellin.
                 </p>
-                <p>
-                    Rp. 700. 000 / malam
-                </p>
+
             </div>
         </div>
     </div>

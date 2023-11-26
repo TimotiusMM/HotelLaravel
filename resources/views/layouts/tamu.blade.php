@@ -31,7 +31,7 @@
 
     <footer class="footer">
         <div class="container">
-            <span class="text-muted"><strong>Copyright &copy; 2022 Aldhi Xar.</strong> All rights reserved.</span>
+            <span class="text-muted"><strong>Copyright &copy; 2023 Aceelino.</strong></span>
         </div>
     </footer>
 

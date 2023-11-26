@@ -4,22 +4,13 @@
     <div class="container content">
 
         <h1 class="text-center my-4">About</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique consequat lectus id laoreet.
-            Ut id scelerisque nunc, ut pretium mi. Nam vitae ex quis nibh porta sollicitudin sit amet sed diam.
-            Cras venenatis justo lacus, non vestibulum purus ullamcorper ut. Donec nec porttitor nisi, ut condimentum
-            lectus.
-            Sed volutpat enim felis, quis vestibulum nulla semper quis. Praesent eget mollis mauris.</p>
+        <p>Nikmati pengalaman menginap yang tak terlupakan di Hotellin! Dengan desain modern dan pelayanan yang ramah,
+            Hotellin menyajikan kenyamanan terbaik untuk setiap tamu. Rasakan kemewahan kamar-kamar kami yang elegan,
+            bersantailah di kolam renang yang menenangkan, dan nikmati hidangan lezat di restoran kami yang eksklusif.
+            Dengan lokasi strategis di pusat kota, Hotellin memberikan akses mudah ke tempat-tempat wisata terkenal, pusat
+            perbelanjaan, dan hiburan malam. Segera pesan kamar Anda sekarang dan nikmati
+            promo spesial serta diskon eksklusif untuk pengalaman menginap yang istimewa di Hotellin!</p>
 
-        <p>Vivamus egestas, mi in commodo condimentum, erat lorem imperdiet urna, eget ultrices est sem id lorem.
-            Aenean tincidunt, dui id efficitur aliquam, dolor magna efficitur mi, eu elementum metus purus at libero.
-            Morbi elementum eleifend orci. Curabitur ultricies varius iaculis. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Quisque non tellus ac libero imperdiet finibus. Vivamus semper egestas porta.</p>
 
-        <p>Vivamus egestas, mi in commodo condimentum, erat lorem imperdiet urna, eget ultrices est sem id lorem.
-            Aenean tincidunt, dui id efficitur aliquam, dolor magna efficitur mi, eu elementum metus purus at libero.
-            Morbi elementum eleifend orci. Curabitur ultricies varius iaculis. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Quisque non tellus ac libero imperdiet finibus. Vivamus semper egestas porta.</p>
     </div>
 @endsection

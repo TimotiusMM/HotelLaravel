@@ -25,10 +25,18 @@ class LoginAdminController extends Controller
         ]);
 
 
-        if (Auth::guard('admin')->attempt($credentials, $request->remember)) {
-            $request->session()->regenerate();
-            return redirect()->intended(config('admin.path'));
+        if (Auth::guard('admin')->attempt($credentials)) {
+            if (Auth::guard('admin')->user()->role == 'admin') {
+                $request->session()->regenerate();
+                return redirect()->intended(config('admin.path'));
+            }
+            if (Auth::guard('admin')->user()->role == 'tamu') {
+                return redirect()->route('home');
+            }
         }
+
+
+
 
         return back()->withErrors([
             'username' => 'The provided credentials do not match our records.',
